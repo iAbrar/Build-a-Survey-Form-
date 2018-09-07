@@ -12,6 +12,6 @@ body{
 .card-body{
     padding: 0;
 }
-.col .right{
+.col.right{
     padding: 5%;
 }
