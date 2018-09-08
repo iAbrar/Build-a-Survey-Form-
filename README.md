@@ -5,10 +5,7 @@ This project is a part of free code camp challenge which a survey form page. Ple
 ![](https://github.com/iAbrar/Build-a-Survey-Form-/blob/master/images/Screen%20Shot.png)
 
 ## Installation and Setup Instructions
-
-
-
-## API Reference
+- Visit the app on codePen [CLICK HERE](https://codepen.io/Bero/pen/aKGBmX)
 
 
 ## Technology:
@@ -19,3 +16,4 @@ This project is a part of free code camp challenge which a survey form page. Ple
 
 
 ## Resources I used them:
+- Vector made by [Freepik](https://www.freepik.com)
