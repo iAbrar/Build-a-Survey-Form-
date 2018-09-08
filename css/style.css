@@ -1,7 +1,23 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300');
+
 body{
   margin-top: 100px;
+  color: grey;
+  text-align:justify;
+  font-family: 'Open Sans', sans-serif !important;
+  line-height: 1.8;
 }
 
+h4{
+    color:#294859;
+}
+
+label.question{
+font-weight: bolder;
+font-size: 18px;
+color: darkslategrey;
+}
+input, textarea, select { font-family:inherit; }
 .card {
     margin: 0 auto;
     float: none;
@@ -16,5 +32,5 @@ body{
 }
 
 .col.right{
-    padding: 5%;
+    padding: 5% 5% 5% 0%;
 }
