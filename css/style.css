@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300');
 
-html {
+html,body {
     height: 100%;
 }
 
@@ -11,6 +11,9 @@ body{
   font-family: 'Open Sans', sans-serif !important;
   line-height: 1.8;
   background-image: linear-gradient( 135deg, #8ccbff, #282189 );
+     margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 h3{
