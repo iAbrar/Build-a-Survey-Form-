@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="author" content="Abrar">
-    <title>Language Aquisition- Student Survey</title>
+    <title>Language Acquisition- Student Survey</title>
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
     <!-- A website style sheet and script file-->
@@ -18,9 +18,77 @@
   <div class="card-body">
  <div class="row">
    <div class="col">
-<img src="images/learnLanguages.png" alt="learn languages" height="900px" >
+<img src="images/learnLanguages.png" alt="learn languages" height="1000px" >
    </div><!-- Left col -->
     <div class="col right">
+      <h4 id="title">Language Acquisition- Student Survey</h4>
+      <p id="description">The aim of this survey is to look at cultural and social differences which may influence the way you learn a language.</p>
+      <!--form START-->
+ <form id="survey-form">
+ <div class="row">
+    <div class="col">
+      <label id="name-label" for="name">Name:</label>
+      <input type="text" class="form-control" id="name" placeholder="Enter your name" name="name" required >
+</div>
+ <div class="col-6">
+        <label id="number-label" for="number">Age:</label>
+      <input type="number" class="form-control" id="number" placeholder="Enter your age" name="number" required pattern= "[0-9]" min="0" max="100" title= "Please enter only numbers less than 101">
+</div>
+</div>
+ <label id="email-label" for="email">E-mail:</label>
+      <input type="email" class="form-control" id="email" placeholder="Enter your e-mail" name="email" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$" title="Please enter a real e-mail like: xxx@xx.xx">
+
+
+ <div class="form-group">
+    <label for="exampleSelect1">Where are you studying?</label>
+    <select id="dropdown" class="form-control">
+      <option>School</option>
+      <option>College</option>
+      <option>University</option>
+      <option>Institution</option>
+    </select>
+  </div>
+<fieldset class="form-group">
+    <label> How do you feel you learn vocabulary and language in general, best?</label>
+    <div class="form-check">
+      <label class="form-check-label">
+        <input type="radio" class="form-check-input" name="optionsRadios"  value="option1" >
+        Rote Memorisation
+      </label>
+    </div>
+    <div class="form-check">
+      <label class="form-check-label">
+        <input type="radio" class="form-check-input" name="optionsRadios"  value="option2" >
+        By having it explained to you
+      </label>
+    </div>
+
+     <!-- checklist -->
+<div class="form-group">
+       <label> What do you do to further your knowledge of the language?</label>
+    <div class="form-check">
+      <label class="form-check-label" for="gridCheck">
+         <input class="form-check-input" type="checkbox" id="" value="1"> Use media: Watch foreign TV, YouTube, listen to music in the language</label>
+
+    </div>
+      <div class="form-check">
+      <label class="form-check-label" for="gridCheck">
+         <input class="form-check-input" type="checkbox" id="" value="1"> Study Past Papers or similar</label>
+
+    </div>
+
+</div>
+  <!--END checklist-->
+      <!-- Textarea -->
+      <div class="form-group">
+    <label for="exampleFormControlTextarea2">Any Comments or Suggestions?  </label>
+    <textarea class="form-control rounded-0" id="exampleFormControlTextarea2" rows="3"></textarea>
+</div>
+      <!-- End Textarea -->
+        <button type="submit" class="btn btn-primary" id="submit">Submit</button>
+
+  </form>
+      <!-- form END -->
    </div><!-- Right col -->
  </div>
   </div>
