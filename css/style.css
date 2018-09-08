@@ -1,14 +1,19 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300');
 
+html {
+    height: 100%;
+}
+
 body{
   margin-top: 100px;
   color: grey;
   text-align:justify;
   font-family: 'Open Sans', sans-serif !important;
   line-height: 1.8;
+  background-image: linear-gradient( 135deg, #8ccbff, #282189 );
 }
 
-h4{
+h3{
     color:#294859;
 }
 
